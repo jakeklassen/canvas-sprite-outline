@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Art Game Base</title>
+
+    <style>
+      html,
+      body {
+        background-color: #1a1d21;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #container {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      canvas {
+        background-color: black;
+        margin: auto;
+        padding: 0;
+        display: block;
+        image-rendering: pixelated;
+        transform: scale(4);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"><canvas id="canvas"></canvas></div>
+
+    <script src="src/main.ts" type="module"></script>
+  </body>
+</html>

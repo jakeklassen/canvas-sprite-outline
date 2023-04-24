@@ -1,0 +1,19 @@
+{
+  "name": "canvas-sprite-outline",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/css-font-loading-module": "^0.0.8",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.1"
+  },
+  "dependencies": {
+    "resource-loader": "4.0.0-rc4"
+  }
+}
