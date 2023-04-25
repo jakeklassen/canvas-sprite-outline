@@ -60,8 +60,8 @@ const height = cherryBombSprite.height + thickness * 2;
 
 // Create a new canvas for the outline
 const outlineCanvas = document.createElement('canvas');
-outlineCanvas.width = cherryBombSprite.width + 2;
-outlineCanvas.height = cherryBombSprite.height + 2;
+outlineCanvas.width = width;
+outlineCanvas.height = height;
 const outlineCtx = outlineCanvas.getContext('2d');
 
 if (outlineCtx == null) {
