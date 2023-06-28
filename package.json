@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@types/css-font-loading-module": "^0.0.8",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.3"
+    "typescript": "^5.1.5",
+    "vite": "^4.3.9"
   },
   "dependencies": {
     "resource-loader": "4.0.0-rc4"
