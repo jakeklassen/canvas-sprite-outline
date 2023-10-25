@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/css-font-loading-module": "^0.0.9",
+    "@types/css-font-loading-module": "^0.0.10",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.5.0"
   },
   "dependencies": {
     "resource-loader": "4.0.0-rc4"
